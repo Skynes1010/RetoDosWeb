@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/FondoTodoAJ.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.botonD1 {
+    border-radius: 5px;
+    border: 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: blue;
+    position: absolute;
+    margin: 2% 1%;
+
+}
+
+.botonD2 {
+    border-radius: 5px;
+    border: 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: blue;
+    position: absolute;
+    margin: 10% 1%;
+
+}
+.form{
+    width: 40%;
+    height: auto;
+    margin: 5% auto;    
+    border-radius: 15px;
+    border: 4px solid blue;
+    padding: 25px 10px ;
+    text-align: center;
+    margin-top: 10%;
+    background-color: wheat;
+}
+
+.form>h1{
+    
+    padding: 30px;
+    
+}
+
+.form>select{
+    
+    width: 25%;
+    text-align: center;
+    padding: 5px 2px;
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+
+}
+
+.btn{
+
+    background-color: blue;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 50px;
+    margin: 10%;
+    border: 0;
+    font-weight: bold;
+
+   
+}
+
+.result{
+
+    font-weight: bold;
+
+}
